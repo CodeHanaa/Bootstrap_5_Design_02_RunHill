@@ -1,0 +1,121 @@
+:root {
+    --mainColor: #ffc527;
+}
+body {
+    font-family: "Roboto", serif;
+    direction: rtl;
+    text-align: right;
+}
+/* Start Nave */
+.navbar {
+    box-shadow: 1px 2px 5px #ebebeb;
+}
+/* End Nave */
+/* Start Landing Section */
+.landing {
+    height: 600px;
+    background-size: cover;
+    background-image: url(../RunHill-images/slide-bg-1.jpg);
+}
+.landing .home-item {
+    margin-right: auto;
+}
+.landing .home-item h2 {
+    font-size: 45px;
+    margin: 0 0 8px;
+}
+.landing .home-item p {
+    font-size: 20px;
+    margin: 24px 0;
+}
+.landing .home-item button:hover {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+/* End Landing Section */
+/* Start Features Section */
+.features .box h2 {
+    position: relative;
+    /* display: inline-block; */
+}
+.features .box h2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    width: 110px;
+    height: 5px;
+    background-color: var(--mainColor);
+}
+.features .box p {
+    margin: 50px 0;
+}
+.features .box button:hover {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+/* End Features Section */
+/* Start Our Work Section */
+.work {
+    background-color: #f8f9fa !important;
+}
+.work .box h2 {
+    position: relative;
+}
+.work .box h2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    width: 110px;
+    height: 5px;
+    background-color: var(--mainColor);
+}
+.work .box .new-left img {
+    margin-left: 10px;
+}
+/* End Our Work Section */
+/* Start  contact Us Section */
+.contact {
+    height: 400px;
+    background-size: cover;
+    background-image: url(../RunHill-images/subscribe-our-newsletter-bg.jpg);
+    position: relative;
+}
+.contact .row {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contact .row .forrm {
+    justify-content: space-between;
+}
+.contact .row .forrm .col-auto:first-child {
+    width: 80%;
+}
+.contact .row .forrm .col-auto label button:hover {
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+/* End  contact Us Section */
+/* Start Footer Section */
+.footer {
+    background-color: #071c33;;
+}
+.footer .box ul li a {
+    text-decoration: none;
+    color: var(--mainColor);
+}
+.footer .box ul li a:hover {
+    border-bottom: 1px solid var(--mainColor);
+    color: #d6127e;
+}
+.footer .box .new-left img {
+    margin-left: 10px;
+}
+/* End Footer Section */
